@@ -116,3 +116,49 @@ footer {
   text-align: center;
   color: var(--primary-color);
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h5 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .about-paragraph {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 12px;
+  }
+
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .card-text {
+    border: 1px solid white;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: var(--box-shadow);
+    margin: 15px auto;
+  }
+}
